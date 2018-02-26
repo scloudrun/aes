@@ -1,10 +1,14 @@
-## aes encrypt and decrypt ,cross language
+Aes encrypt and decrypt ,Cross language
+================================
 
+## Desc
+~~~
+support python,golang,php
+~~~
 
-### support python,golang,php
+## Usage
 
-
-### usage go
+#### usage go
 ~~~
 func main() {
 	key := "45f8c3dfbca782b4cd8a34f54f08c2bd"
@@ -39,3 +43,8 @@ str = 'aes_encrypt_decrypt_cross_language'
 res = getAesData(sk,str)
 print 'encrypt base64 string:\t'+res
 ~~~
+
+Contributing
+============
+
+Please feel free to submit issues, fork the repository and send pull requests!
